@@ -6,7 +6,7 @@ Ejabberd already offered a XML RPC, but according to their documentation this wi
   
 ### Installation
 ```bash
-composer require dndam/ejabberd  
+composer require gylraj/ejabberd  
 composer install
 ```
 
@@ -16,7 +16,7 @@ composer install
   
 require __DIR__ . '/vendor/autoload.php';
   
-use Ejabberd\Rest;  
+use Ejabberd\Rest\Client;  
 $client = new Client([
     'apiUrl' => 'http://127.0.0.1:5280/api/',
     'host' => 'chat.example.com'
@@ -52,4 +52,7 @@ For this, based on small talks ... arrived to three possibilities:
 2. A Factory pattern, but for someone that is not used with Ejabberd server it' hard to work with and no autocompletion within IDE
 3. Proxy: Same as above: no autocomplete
 4. Traits: Winner! A lot of wrappers, a lot of methods but we should split them in traits and reuse what we can reuse
-
+## Added Disclaimer
+I really need this functions and can't wait for updates. 
+I admire the owner and creator of this project. 
+I just want to test my skills and add function for the missing api.
