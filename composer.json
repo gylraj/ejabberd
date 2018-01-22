@@ -20,8 +20,7 @@
       "name": "Gian Olivar",
       "email": "gianolivar@gmail.com",
       "role": "Developer"
-    },
-    
+    }
   ],
   "require": {
     "php": ">=5.6.0",
