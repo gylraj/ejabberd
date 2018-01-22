@@ -55,4 +55,4 @@ For this, based on small talks ... arrived to three possibilities:
 ## Added Disclaimer
 I really need this functions and can't wait for updates. 
 I admire the owner and creator of this project. 
-I just want to test my skills and add function for the missing api.
+I just want to test my skills and add functions for the missing api.
