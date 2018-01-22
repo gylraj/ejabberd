@@ -1,5 +1,5 @@
 {
-  "name": "dndam/ejabberd",
+  "name": "gylraj/ejabberd",
   "type": "library",
   "description": "Ejabberd implementation using REST API",
   "keywords": [
@@ -7,7 +7,7 @@
     "ejabberd",
     "api"
   ],
-  "homepage": "https://github.com/dndam/ejabberd",
+  "homepage": "https://github.com/gylraj/ejabberd",
   "license": "MIT",
   "authors": [
     {
@@ -15,7 +15,13 @@
       "email": "damian.dan@me.com",
       "homepage": "http://life.ontherun.ro",
       "role": "Developer"
-    }
+    },
+    {
+      "name": "Gian Olivar",
+      "email": "gianolivar@gmail.com",
+      "role": "Developer"
+    },
+    
   ],
   "require": {
     "php": ">=5.6.0",
